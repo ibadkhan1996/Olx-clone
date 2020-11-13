@@ -1,0 +1,13 @@
+.recommendedCard {
+  margin-bottom: 30px;
+}
+.recommendedCard__body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.recommendedCard__heading > p {
+  font-size: 26px;
+  margin-left: 60px;
+  margin-bottom: 6px;
+}

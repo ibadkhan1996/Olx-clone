@@ -1,0 +1,39 @@
+.footer__banner {
+  background-image: url("../images/olx-banner.PNG");
+  height: 200px;
+  background-position: center;
+}
+.footer__list {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ebeeef;
+  padding: 16px 0 32px;
+}
+.footer__list > div > p {
+  color: #002f34;
+  font-weight: 700;
+  font-size: 14px;
+}
+.footer__list > div > ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 8px;
+}
+.footer__list > div > ul > li {
+  font-size: 12px;
+  margin: 4px 0;
+  font-weight: 400;
+  cursor: pointer;
+  color: rgba(0, 47, 52, 0.64);
+}
+.footer__list > div > ul > li:hover {
+  color: #002f34;
+}
+.footer__footnote {
+  display: flex;
+  justify-content: space-between;
+  background-color: #002f34;
+  color: #fff;
+  font-size: 12px;
+  padding: 16px 60px;
+}
